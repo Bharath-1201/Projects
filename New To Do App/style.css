@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #06334b;
+    font-family: "Nunito",sans-serif;
+}
+h2{
+    margin-top:20px;
+}
+.eachtask{
+    font-weight:600 ;
+    color:white;
+}
+.container{
+    width:40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin:300px auto;
+    background-color: #74839b;
+    border-radius:5px;
+}
+input{
+    width:80%;
+    height:40px;
+    margin:10px 10px 10px 0;
+    border:2px solid #112731;
+    border-radius:5px;
+    text-indent:10px;
+    outline: none;
+    transition: all .5s;
+}
+input:hover,input:focus{
+    box-shadow: 0 0 10px #06334b;
+}
+.but{
+    border:none;
+    
+    transition: color .5s;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.but:hover{
+    border:none;
+    background-color: whitesmoke;
+    color:rgb(243, 7, 11);}
+#push{
+    width:20%;
+    height:40px;
+    margin:10px 0 10px 10px;
+    border:none;
+    background-color: #112731;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    transition: all .5s;
+}
+
+#newtask{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:95%;
+
+}
+#tasks{
+    width:95%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+span{
+    margin-left:10px;
+}
+.but{
+    width:20px;
+    height:25px;
+    margin-right:15px;
+}
+#task{
+    width:100%;
+    margin:10px auto;
+    height:40px;
+    border:2px solid grey;
+    border-radius:5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #06334b;
+}
+#push:hover{
+    background-color: #a9b6c3;
+    color:black;
+    box-shadow:0 0 10px #112731;
+}
+input:focus{
+    border:2px solid #7b0a29;
+}
